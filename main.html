@@ -1,70 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Size Chart</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-
-    .size-chart {
-      width: 70%;
-      margin: 50px auto;
+    table {
+      width: 100%;
       border-collapse: collapse;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .size-chart th,
-    .size-chart td {
-      border: 1px solid #ccc;
-      padding: 10px;
       text-align: center;
     }
-
-    .size-chart thead {
-      background-color: #f9f9f9;
+    thead th {
+      background-color: #eee;
+      padding: 8px;
+      border: 1px solid #ccc;
     }
-
-    .size-chart th {
-      font-weight: bold;
-    }
-
-    .size-chart tbody tr:nth-child(even) {
-      background-color: #f5f5f5;
+    tbody td {
+      padding: 8px;
+      border: 1px solid #ccc;
     }
   </style>
 </head>
 <body>
 
-  <h2 style="text-align:center;">Size Chart</h2>
-
-  <table class="size-chart">
+  <table>
     <thead>
       <tr>
-        <th>Part</th>
-        <th>XS</th>
-        <th>S</th>
-        <th>M</th>
-        <th>L</th>
-        <th>XL</th>
+        <th>Size</th>
+        <th>Chest (inches)</th>
+        <th>Waist (inches)</th>
+        <th>Length (inches)</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td>Waist</td><td>25</td><td>28</td><td>30</td><td>31</td><td>32</td></tr>
-      <tr><td>Hip</td><td>30</td><td>32</td><td>34</td><td>36</td><td>38</td></tr>
-      <tr><td>Inseam</td><td>28</td><td>29</td><td>30</td><td>31</td><td>32</td></tr>
-      <tr><td>Length</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
-      <tr><td>Shoulder</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
-      <tr><td>Chest</td><td>34</td><td>34</td><td>38</td><td>40</td><td>41</td></tr>
-      <tr><td>Neck</td><td>14</td><td>15</td><td>15.5</td><td>16</td><td>17</td></tr>
-      <tr><td>Arm</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
-      <tr><td>Bottom</td><td>30</td><td>32</td><td>34</td><td>36</td><td>38</td></tr>
-      <tr><td>Thigh</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td></tr>
-      <tr><td>Rise</td><td>10</td><td>10.5</td><td>11</td><td>11.5</td><td>12</td></tr>
-      <tr><td>Leg Opening</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
-      <!-- ✅ This is row index 12 (13th row) -->
-      <tr><td>Sleeve</td><td>23</td><td>24</td><td>24</td><td>25</td><td>25</td></tr>
+      <tr>
+        <td>S</td>
+        <td>34-36</td>
+        <td>28-30</td>
+        <td>27</td>
+      </tr>
+      <tr>
+        <td>M</td>
+        <td>38-40</td>
+        <td>32-34</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>L</td>
+        <td>42-44</td>
+        <td>36-38</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <td>XL</td>
+        <td>46-48</td>
+        <td>40-42</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>XXL</td>
+        <td>50-52</td>
+        <td>44-46</td>
+        <td>31</td>
+      </tr>
     </tbody>
   </table>
 
